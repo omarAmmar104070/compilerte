@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -9,7 +9,7 @@ namespace ConsoleApp3
         //check the char is Arithmatic Operator
         public static bool isArithmaticOperator(char tooken)
         {
-            return tooken == '+' || tooken == '/' || tooken == '*';
+            return tooken == '+' || tooken == '*';
         }
         //check the char is Tooken Delimiter         
         public static bool isTookenDelimiter(char tooken)
